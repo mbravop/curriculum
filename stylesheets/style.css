@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani&family=Exo+2:wght@700&family=Fira+Sans:ital,wght@1,100&display=swap');
+
+* {
+    font-family: 'Biryani', sans-serif;
+    background-color: #0f0e17;
+    color: #a7a9be;
+}
+
+h1 {
+    font-family: 'Exo 2', serif;
+    text-align: center;
+}
+
+h2 {
+    color:#fffffe;
+}
+
+.subtitulo{
+    font-family: 'Fira Sans', serif;
+}
+
+nav {
+    border: 3px solid white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1;
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    flex: 1;
+}
+
+article {
+    display: flex;
+    column-gap: 2;
+    padding: 20px;
+}
+
+article > div.right {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    padding-left: 5%;
+}
+
+article > div table {
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+}
+
+.botonForm{
+    background-color:#ff8906;
+    color:#fffffe;
+}
+
+form {
+    padding-left: 35%;
+}
+
+.contacto {
+    font-family: 'Fira Sans', serif;
+    padding-left: 25%;
+}
