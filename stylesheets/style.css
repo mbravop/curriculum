@@ -39,7 +39,7 @@ nav li {
 
 article {
     display: grid;
-    column-gap: 60px;
+    column-gap: 20px;
     grid-template-areas: "A A B B B";
 }
 
@@ -58,13 +58,39 @@ table{
 .botonForm{
     background-color:#ff8906;
     color:#fffffe;
+    margin-left: 20%;
 }
 
 form {
     padding-left: 35%;
 }
 
+input {
+    border:1px solid white;
+}
+
 .contacto {
     font-family: 'Fira Sans', serif;
     padding-left: 25%;
+}
+
+#infosobremi, #masinfo{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#infosobremi iframe {
+    margin: 0px 10% 0px 10%;
+}
+
+table {
+    border:1px solid white;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 5px;
 }
